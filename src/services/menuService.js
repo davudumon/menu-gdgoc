@@ -207,7 +207,7 @@ const MenuService = {
             return response.text
         }
 
-        await main()
+        return await main()
     }
 }
 
